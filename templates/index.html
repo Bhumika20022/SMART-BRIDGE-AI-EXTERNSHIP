@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fake News Detection System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/skeleton.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="modal">
+        <div id="modal-cont">
+            <video width="800" height="500" controls>
+                <source src="/static/risk.mp3" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+            <div id="close">✕</div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <nav class="navbar flex">
+                <div class="left">
+                    <span class="navbar-logo">Fake News Detection System</span>
+                </div>
+                <div class="right navbar-right">
+                    <ul class="navbar-links">
+                        <li>
+                            <a href="#features-scrollto">Features</a>
+                        </li>
+                        <li>
+                            <a href="#how-scrollto">How It Works</a>
+                        </li>
+                        <li>
+                            <a href="#how-scrollto">Application</a>
+                        </li>
+
+                        <li>
+                            <div id="watch" class="navbar-c2a button">Watch the Video</div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="flex">
+                <div class="left">
+                    <div class="splash-image">
+                        <img src="/static/img.png" alt="">
+                    </div>
+                </div>
+                <div class="right splash-right">
+                    <h1>Detecting fraudulent transactions is critical for any credit card company. A well-known company has tasked us with detecting potential frauds so that customers are not charged for items they did not purchase. So the goal is to create
+                        a classifier that can determine whether or not a transaction is fraudulent.</h1>
+                    <p>Financial fraud has increased along with the popularity of digital payments in India, as the majority of Indians use Gpay, Phonepe, and other apps. In the last three years, 42% of Indians surveyed reported experiencing financial fraud,
+                        and 74% of those who did not succeed in recovering their losses, according to a survey by the private company LocalCircles. The models will be deployed, once trained, to a REST API that can be integrated into an existing business
+                        software infrastructure.
+                    </p>
+                    <img class="download-app-store" src="/static/1_img.png">
+                </div>
+            </div>
+        </div>
+        <div class="flairbox"></div>
+    </header>
+    <section id="how-scrollto" class="how-section">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="cards flex">
+                <div class="card">
+                    <b>1.</b>
+                    <br> Data obtained through kaggle and feature selection was done
+                </div>
+                <div class="card">
+                    <b>2.</b>
+                    <br>Machine learning models were implemented
+                </div>
+                <div class="card">
+                    <b>3.</b>
+                    <br>The user gives the input value and our model runs
+                </div>
+                <div class="card">
+                    <b>4.</b>
+                    <br>Returns the results and identifies if the transaction was fraudulent
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features-scrollto" class="why-section">
+        <div class="container flex">
+            <div class="left">
+                <h2>Features</h2>
+                <div class="feature">
+                    <h2> FRAUD DETECTION</h2>
+                    <p>This application helps in the detection of fraudulent transactions</p>
+                </div>
+                <div class="feature">
+                    <h2>Easy to use</h2>
+                    <p>The application is very user friendly
+                    </p>
+                </div>
+                <div class="feature">
+                    <h2>Outcomes</h2>
+                    <p>Detecting fraudulent transactions is critical for any credit card company. A well-known company has tasked us with detecting potential frauds so that customers are not charged for items they did not purchase. So the goal is to create
+                        a classifier that can determine whether or not a transaction is fraudulent. </p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="splash-image">
+                    <img src="/static/2_img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-started flex">
+        <h2>Sold?</h2>
+        <form method="post" action="/landing">
+            <input type="submit" value="Get Started"></input>
+        </form>
+    </section>
+    <section class="credit">
+        <div class="container">
+            <p>
+                <b style="margin-right: 30px">Fraud Detection</b>
+                <span style="margin-right: 10px">Contact</span>
+                <span style="margin-right: 10px">About</span>
+                <span style="margin-right: 10px">Privacy Policy</span>
+                <span style="margin-right: 10px">Terms of Service</span>
+            </p>
+        </div>
+    </section>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
